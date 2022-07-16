@@ -1,0 +1,102 @@
+body {
+        background: white;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 200px;
+    }
+
+.main {
+    margin-top: 100px;
+    text-align: center; /*This makes .main DIV elements to be aligned at center */
+}
+
+.logo-img {
+    display: block;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-input {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;      /* Padding above*/
+    padding-bottom: 10px;   /* Padding below */
+    padding-left: 30px;      /*Padding at both sides */   
+    padding-right: 30px;    /*Padding at both sides */
+    border: 1px solid #dfe1e5;  /*Border thickness, Border color */
+    border-radius: 24px;    /*Border radius */
+    height: 24px;     /*Height of content i.e that of input box */
+}
+
+.btn {
+    margin-top: 30px;
+   /* margin-left: auto;
+    margin-right: auto;     */
+    width: 150px;
+
+    /*Centering the button is completed*/
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: black;
+    background-color: #64666967;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+
+    margin-left: 4px;
+    margin-right: 4px;
+
+    /*Customizing the button texts, background i.e the insides____is completed*/
+}
+
+.lucky {
+   /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 30px;
+    width: 160px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #64666967;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: black;
+
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/*
+.b1 {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+
+    margin-left: 10px;    
+    margin-right: 10px;  
+}
+
+.bolt {
+    display: flex;              
+    justify-content: center;   
+}
+
+*/
