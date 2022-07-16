@@ -1,0 +1,69 @@
+.count {
+    margin-top: 100px;
+    text-align: center;
+    }
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background-color: brown;
+}
+
+#save-btn {
+    background-color: darkgreen;
+}
+
+#welcome-el {
+    text-align: center;
+}
+
+#save-el {
+    text-align: center;
+    font-weight: bold;
+}
+
+#reset-btn {
+    background-color: blueviolet;
+    color: white;
+}
+
+body {
+    background-image:url("https://wallpaperaccess.com/full/1673445.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#welcome-el {
+    margin-top: 200px;
+    color: rgb(216, 2, 216);
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+h1 {
+    color: rgb(0, 255, 115);
+    font-size: xx-large;
+}
+
+#save-el {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#count-el {
+    font-size: xx-large;
+    color: rgb(7, 7, 44);
+}
